@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/event_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/event_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_current_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/event_tag"
+            android:text="None"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/state_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/event_holder"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/state_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_current_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/state_tag"
+            android:text="Closed"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_below="@id/state_holder"
+        android:id="@+id/devider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.2"/>
+
+
+
+    <com.hbisoft.fabb.Fabb
+        android:id="@+id/fabb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:setActionOneBackgroundColor="#b51a2d"
+        app:setActionOneIcon="@drawable/ic_close_black_24dp"
+        app:setMainFabBackgroundColor="#0094de"
+        app:setMainFabOpenedColor="@android:color/white"
+
+        />
+
+
+    <!--<com.hbisoft.fabb.Fabb
+        android:id="@+id/fabbb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:setActionOneBackgroundColor="#b51a2d"
+        app:setActionTwoBackgroundColor="#b51a2d"
+        app:setActionThreeBackgroundColor="#b51a2d"
+
+        app:setMainFabBackgroundColor="#0094de"
+        app:setMainFabOpenedColor="@android:color/white"
+
+        app:setActionOneText="Some Text"
+        app:setActionTwoText="Some Text"
+        app:setActionThreeText="Some Text"
+
+        app:setMainIcon="@drawable/ic_close_black_24dp"
+        app:setActionOneIcon="@drawable/ic_close_black_24dp"
+        app:setActionTwoIcon="@drawable/ic_close_black_24dp"
+        app:setActionThreeIcon="@drawable/ic_close_black_24dp"
+
+        app:keepOpenUntilAction="false"
+        />-->
+
+
+</RelativeLayout>

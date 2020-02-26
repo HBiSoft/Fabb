@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_above="@+id/fab2Holder"
+            android:id="@+id/fab3Holder">
+
+            <TextView
+                android:id="@+id/tv_fab_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="88dp"
+                android:background="#212121"
+                android:padding="8dp"
+                android:text="Fabb3"
+                android:textColor="#ffffff"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="invisible"
+                app:backgroundTint="#b51a2d"
+                app:pressedTranslationZ="12dp"
+                app:srcCompat="@drawable/fab_cam"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_above="@+id/fab1Holder"
+            android:id="@+id/fab2Holder"
+            >
+
+            <TextView
+                android:id="@+id/tv_fab_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="88dp"
+                android:background="#212121"
+                android:padding="8dp"
+                android:text="Fab2"
+                android:textColor="#ffffff"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="invisible"
+                app:backgroundTint="#b51a2d"
+                app:pressedTranslationZ="12dp"
+                app:srcCompat="@drawable/fab_cam"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/fab1Holder"
+            android:layout_above="@+id/fab"
+            >
+
+            <TextView
+                android:id="@+id/tv_fab_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/fab1"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="88dp"
+                android:background="#212121"
+                android:padding="8dp"
+                android:text="Fabb1"
+                android:textColor="#ffffff"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="24dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="invisible"
+                app:pressedTranslationZ="12dp"
+                app:srcCompat="@drawable/fab_cam"
+                />
+
+        </RelativeLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/blank"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible"
+            app:pressedTranslationZ="12dp"
+            app:srcCompat="@drawable/fab_cam"
+            />
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:id="@+id/blank"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

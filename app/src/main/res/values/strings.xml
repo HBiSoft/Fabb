@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FabbDemo</string>
+    <string name="keep_open_until_action">Keep open until action</string>
+    <string name="change_fabb_color">Change Fabb color</string>
+    <string name="text_color">Text color</string>
+    <string name="text_background">Text background</string>
+    <string name="main_fabb_opened_color">Main Fabb opened color</string>
+</resources>

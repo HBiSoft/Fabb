@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.settings.MainActivity">
+
+    <item
+        android:id="@+id/action_keep_open"
+        android:title="@string/keep_open_until_action"
+        />
+
+    <item
+        android:id="@+id/action_fabb_color"
+        android:title="@string/change_fabb_color"
+        />
+
+    <item
+        android:id="@+id/action_text_color"
+        android:title="@string/text_color"
+        />
+
+    <item
+        android:id="@+id/action_text_font"
+        android:title="Text font"
+        />
+
+    <item
+        android:id="@+id/action_text_background"
+        android:title="@string/text_background"
+        />
+
+    <item
+        android:id="@+id/action_main_opened_color"
+        android:title="@string/main_fabb_opened_color"
+        />
+
+</menu>
