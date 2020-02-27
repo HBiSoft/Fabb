@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/HBiSoft/PickiT.svg)](https://jitpack.io/#HBiSoft/Fabb)
+
 # Fabb
 
 Custom floating action button with animation and the option to add up to 3 action buttons.
