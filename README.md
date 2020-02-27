@@ -8,7 +8,7 @@ Custom floating action button with animation and the option to add up to 3 actio
 Demo:
 ---
 
-The demo app can be downloaded here.
+The demo app can be downloaded [here](https://github.com/HBiSoft/Fabb/releases/download/0.0.1/FabbDemo.apk)
 
 ![Fbb](https://user-images.githubusercontent.com/35602540/75451010-790c0580-5978-11ea-8ae9-1f8716e2210d.gif)
 
@@ -27,7 +27,7 @@ Add JitPack in your root `build.gradle` at the end of repositories:
 Add the dependency to your app level `build.gradle`
 
 	dependencies {
-	        implementation 'com.github.HBiSoft:PickiT:Tag'
+	        implementation 'com.github.HBiSoft:Fabb:0.0.1'
 	}
 
 
