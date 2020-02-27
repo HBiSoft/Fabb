@@ -10,7 +10,7 @@ Demo:
 
 The demo app can be downloaded here.
 
-
+![Fbb](https://user-images.githubusercontent.com/35602540/75451010-790c0580-5978-11ea-8ae9-1f8716e2210d.gif)
 
 Implement Fabb into your project:
 ---
@@ -99,6 +99,9 @@ Java:
 // Set number of action buttons (up to 3) - defaults to 0
 fabb.setNumberOfActions(3);
 
+// Set custom font
+fabb.setCustomFont(Typeface.createFromAsset(getAssets(), "fonts/YourFont.otf"));
+
 // Set main Fabb background
 fabb.setMainFabBackgroundColor(getResources().getColor(R.color.colorPrimary));
 
@@ -125,6 +128,12 @@ fabb.setActionThreeBackgroundColor(R.drawable.ic_mail_white_24dp);
 fabb.setActionOneIcon(R.drawable.ic_mail_white_24dp);
 fabb.setActionTwoIcon(R.drawable.ic_call_white_24dp);
 fabb.setActionThreeIcon(R.drawable.fab_cam);
+
+// Keep Fabb open until close button is pressed
+fabb.dismissOnOutsideClicked(false);
+
+// Check if Fabb is open (returns boolean)
+fabb.isOpen();
 ```
 xml:
 ```xml
