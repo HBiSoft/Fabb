@@ -21,6 +21,8 @@
 
         <attr name="keepOpenUntilAction" format="boolean"/>
 
+        <attr name="setNumberOfActions" format="integer"/>
+
     </declare-styleable>
 
 </resources>

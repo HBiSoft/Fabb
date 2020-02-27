@@ -80,12 +80,18 @@ public class Fabb extends RelativeLayout {
         int fabActionOneBackgroundColor = a.getColor(R.styleable.Fabb_setActionOneBackgroundColor, defStyleAttr);
         int fabActionTwoBackgroundColor = a.getColor(R.styleable.Fabb_setActionTwoBackgroundColor, defStyleAttr);
         int fabActionThreeBackgroundColor = a.getColor(R.styleable.Fabb_setActionThreeBackgroundColor, defStyleAttr);
+
+        int fabActionButtonCount = a.getInteger(R.styleable.Fabb_setNumberOfActions, -1);
+
         Drawable fabMainIcon = a.getDrawable(R.styleable.Fabb_setMainIcon);
         Drawable fabActionOneIcon = a.getDrawable(R.styleable.Fabb_setActionOneIcon);
         Drawable fabTwoIcon = a.getDrawable(R.styleable.Fabb_setActionTwoIcon);
         Drawable fabThreeIcon = a.getDrawable(R.styleable.Fabb_setActionThreeIcon);
         mainFabOpenedColor = a.getColor(R.styleable.Fabb_setMainFabOpenedColor, defStyleAttr);
 
+        if (fabActionButtonCount != -1){
+            setNumberOfActions(fabActionButtonCount);
+        }
 
         if (fabMainBackgroundColor != 0) {
             fab_main.setBackgroundTintList(ColorStateList.valueOf(fabMainBackgroundColor));
