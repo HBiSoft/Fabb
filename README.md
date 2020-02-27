@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/HBiSoft/PickiT.svg)](https://jitpack.io/#HBiSoft/Fabb)
+[![](https://jitpack.io/v/HBiSoft/Fabb.svg)](https://jitpack.io/#HBiSoft/Fabb)
 
 # Fabb
 
