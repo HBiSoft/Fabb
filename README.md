@@ -4,8 +4,7 @@
 
 Custom floating action button with animation and the option to add up to 3 action buttons.
 
-![fabbb](https://user-images.githubusercontent.com/35602540/75350983-10595600-58b0-11ea-9d11-72e2440644de.png)
-
+![fabbb](https://user-images.githubusercontent.com/35602540/75452245-99d55a80-597a-11ea-91a0-68ba36bcc4d9.png)
 
 Demo:
 ---
