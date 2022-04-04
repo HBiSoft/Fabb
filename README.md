@@ -137,7 +137,7 @@ fabb.dismissOnOutsideClicked(false);
 fabb.isOpen();
 ```
 xml:
-```xml
+```java
 // Set number of action buttons (up to 3) - defaults to 0
 app:setNumberOfActions="3"
 
