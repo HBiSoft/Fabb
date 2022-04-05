@@ -6,6 +6,15 @@ Custom floating action button with animation and the option to add up to 3 actio
 
 ![fabbb](https://user-images.githubusercontent.com/35602540/75452245-99d55a80-597a-11ea-91a0-68ba36bcc4d9.png)
 
+---
+
+**<p align="center"><b>If you want to thank me for this library, you can do so below:</b></p>**
+
+<p align="center"><a href="https://www.buymeacoffee.com/HBiSoft" target="_blank" ><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 164px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
+
+---
+
+
 Demo:
 ---
 
